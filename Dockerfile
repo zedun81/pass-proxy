@@ -8,8 +8,6 @@ RUN yum -y update && yum -y install wget
 # install lib devel
 RUN yum install -y python-devel mysql-devel gcc 
 
-# install mysql-client support 
-RUN yum install -y mysql
 
 
 # install pip 
