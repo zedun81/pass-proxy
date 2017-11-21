@@ -6,8 +6,7 @@ MAINTAINER Pyshen "pyshen@example.com"
 RUN yum -y update && yum -y install wget
 
 # install lib devel
-RUN yum install -y python-devel mysql-devel gcc 
-
+RUN yum install -y python-devel mysql-devel gcc zlib-devel libjpeg-turbo-devel
 
 
 # install pip 
